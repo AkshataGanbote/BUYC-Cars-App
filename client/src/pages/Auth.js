@@ -18,7 +18,7 @@ const Login = () => {
     const [password, setPassword] = useState('');
 
     // Handle Cookies
-    const [_, setCookies] = useCookies(['access_token'])
+    const [_, setCookies] = useCookies(["access_token"])
 
     const navigate = useNavigate();
 
@@ -30,7 +30,6 @@ const Login = () => {
             setCookies("access_token", response.data.token);
             window.localStorage.setItem("userID", response.data.userID);
             navigate("/");
-
         }
         catch(err){
             console.error(err);

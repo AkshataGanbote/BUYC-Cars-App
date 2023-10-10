@@ -41,7 +41,7 @@ body {
 
 label {
   font-weight: bold;
-  margin-bottom: 50px;
+  margin: 15px 0px;
 }
 
 input {
@@ -69,7 +69,7 @@ a {
   font-size: 25px;
 }
 
-.create-recipe {
+.create-car {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +81,7 @@ a {
   margin: 20px;
   width: 400px;
 }
-.create-recipe form {
+.create-car form {
   display: flex;
   flex-direction: column;
 }
@@ -117,16 +117,14 @@ p {
 }
 
 button{
-  background-color: #0fae96;
+  background-color: #0D6EFD;
   border: none;
   border-radius: 10px;
   color: #ecf1f0;
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
-  padding: 13px 15px;
+  height: 40px;
+  padding: 10px 15px;
   width: 104px;
-}
-
-input{
+  margin-top: 15px;
 }
